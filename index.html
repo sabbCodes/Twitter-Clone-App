@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" 
+    rel="stylesheet">
+    <!-- Meta Datas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDNs -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Twitter Clone</title>
+</head>
+<body>
+    <div id="loading">
+        <i class="fa-brands fa-twitter" id="twitter-loading-logo"></i>
+    </div>
+    <header>
+        <div class="header-contents">
+            <img src="profilePic.jpeg" alt="Profile pic">
+            <i class="fa-brands fa-twitter" id="twitter-logo"></i>
+            <i class="fa-solid fa-star-half-stroke" id="theme"></i>
+        </div>
+    </header>
+    <section>
+        <div class="feed" id="feed"></div>
+        <button class="new-btn" id="new-btn">+</button>
+    </section>
+    <footer>
+        <div class="footer-icons">
+            <i class="fa-sharp fa-solid fa-house"></i>
+            <i class="fas fa-magnifying-glass"></i>
+            <i class="fa-solid fa-microphone"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-regular fa-envelope"></i>
+        </div>
+    </footer>
+    <script src="index.js" type="module"></script>
+    <script src="https://use.fontawesome.com/4c7385e590.js"></script>
+</body>
+</html>
